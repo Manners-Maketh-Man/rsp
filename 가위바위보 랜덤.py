@@ -14,9 +14,7 @@ def computer_random_choice():
 
     elif (computer == 3) :
         computer = "보"
-
-    print("컴퓨터는",computer,"를 냈습니다.")
     
     return computer
 
-computer_random_choice()
+print("컴퓨터는",computer_random_choice(),"를 냈습니다.")
